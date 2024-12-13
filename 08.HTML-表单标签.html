@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-表单</title>
+</head>
+<body>
+    <!-- 
+    form表单属性:
+        action: 表单提交的地址url 往何处提交数据 ，如果不指定，默认提交到当前页面
+        method: 表单提交的方式 
+            get: 通过url地址栏传递数据，数据会显示在url地址栏中
+            post: 通过请求体传递数据，数据不会显示在url地址栏中(可以在请求体中传递大量数据,并在开发者模式下可以看见)
+
+    -->
+    
+    <form action="" method="post"> 
+        用户名：<input type="text" name="username">
+        年龄：<input type="text" name="age">
+
+        <input type="submit" value="提交">
+    </form>
+    
+</body>
+</html>
